@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116D05F51E9807D7009CC24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D05F41E9807D7009CC24E /* AppDelegate.swift */; };
+		116D05F71E9807D7009CC24E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D05F61E9807D7009CC24E /* ViewController.swift */; };
+		116D05FA1E9807D7009CC24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116D05F81E9807D7009CC24E /* Main.storyboard */; };
+		116D05FD1E9807D7009CC24E /* coffeeStamp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 116D05FB1E9807D7009CC24E /* coffeeStamp.xcdatamodeld */; };
+		116D05FF1E9807D7009CC24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116D05FE1E9807D7009CC24E /* Assets.xcassets */; };
+		116D06021E9807D7009CC24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116D06001E9807D7009CC24E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		116D05F11E9807D6009CC24E /* coffeeStamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffeeStamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		116D05F41E9807D7009CC24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		116D05F61E9807D7009CC24E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		116D05F91E9807D7009CC24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		116D05FC1E9807D7009CC24E /* coffeeStamp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coffeeStamp.xcdatamodel; sourceTree = "<group>"; };
+		116D05FE1E9807D7009CC24E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116D06011E9807D7009CC24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		116D06031E9807D7009CC24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116D05EE1E9807D6009CC24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116D05E81E9807D6009CC24E = {
+			isa = PBXGroup;
+			children = (
+				116D05F31E9807D7009CC24E /* coffeeStamp */,
+				116D05F21E9807D6009CC24E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		116D05F21E9807D6009CC24E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116D05F11E9807D6009CC24E /* coffeeStamp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116D05F31E9807D7009CC24E /* coffeeStamp */ = {
+			isa = PBXGroup;
+			children = (
+				116D05F41E9807D7009CC24E /* AppDelegate.swift */,
+				116D05F61E9807D7009CC24E /* ViewController.swift */,
+				116D05F81E9807D7009CC24E /* Main.storyboard */,
+				116D05FE1E9807D7009CC24E /* Assets.xcassets */,
+				116D06001E9807D7009CC24E /* LaunchScreen.storyboard */,
+				116D06031E9807D7009CC24E /* Info.plist */,
+				116D05FB1E9807D7009CC24E /* coffeeStamp.xcdatamodeld */,
+			);
+			path = coffeeStamp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116D05F01E9807D6009CC24E /* coffeeStamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116D06061E9807D7009CC24E /* Build configuration list for PBXNativeTarget "coffeeStamp" */;
+			buildPhases = (
+				116D05ED1E9807D6009CC24E /* Sources */,
+				116D05EE1E9807D6009CC24E /* Frameworks */,
+				116D05EF1E9807D6009CC24E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coffeeStamp;
+			productName = coffeeStamp;
+			productReference = 116D05F11E9807D6009CC24E /* coffeeStamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116D05E91E9807D6009CC24E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Szi;
+				TargetAttributes = {
+					116D05F01E9807D6009CC24E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DASLK2R355;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 116D05EC1E9807D6009CC24E /* Build configuration list for PBXProject "coffeeStamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 116D05E81E9807D6009CC24E;
+			productRefGroup = 116D05F21E9807D6009CC24E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116D05F01E9807D6009CC24E /* coffeeStamp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116D05EF1E9807D6009CC24E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116D06021E9807D7009CC24E /* LaunchScreen.storyboard in Resources */,
+				116D05FF1E9807D7009CC24E /* Assets.xcassets in Resources */,
+				116D05FA1E9807D7009CC24E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116D05ED1E9807D6009CC24E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116D05FD1E9807D7009CC24E /* coffeeStamp.xcdatamodeld in Sources */,
+				116D05F71E9807D7009CC24E /* ViewController.swift in Sources */,
+				116D05F51E9807D7009CC24E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		116D05F81E9807D7009CC24E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116D05F91E9807D7009CC24E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		116D06001E9807D7009CC24E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116D06011E9807D7009CC24E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		116D06041E9807D7009CC24E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		116D06051E9807D7009CC24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		116D06071E9807D7009CC24E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DASLK2R355;
+				INFOPLIST_FILE = coffeeStamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Szi.coffeeStamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		116D06081E9807D7009CC24E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DASLK2R355;
+				INFOPLIST_FILE = coffeeStamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Szi.coffeeStamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116D05EC1E9807D6009CC24E /* Build configuration list for PBXProject "coffeeStamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116D06041E9807D7009CC24E /* Debug */,
+				116D06051E9807D7009CC24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116D06061E9807D7009CC24E /* Build configuration list for PBXNativeTarget "coffeeStamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116D06071E9807D7009CC24E /* Debug */,
+				116D06081E9807D7009CC24E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		116D05FB1E9807D7009CC24E /* coffeeStamp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				116D05FC1E9807D7009CC24E /* coffeeStamp.xcdatamodel */,
+			);
+			currentVersion = 116D05FC1E9807D7009CC24E /* coffeeStamp.xcdatamodel */;
+			path = coffeeStamp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 116D05E91E9807D6009CC24E /* Project object */;
+}
