@@ -44,8 +44,6 @@ class StampViewController: UIViewController {
         
         self.scrollView.contentSize = CGSize(width: self.view.frame.size.width * 3, height: self.view.frame.size.height - 66)
         
-
-        
     }
 
     override func didReceiveMemoryWarning() {

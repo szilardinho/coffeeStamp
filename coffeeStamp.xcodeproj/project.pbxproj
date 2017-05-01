@@ -19,6 +19,9 @@
 		116D06101E980FF2009CC24E /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116D060E1E980FF2009CC24E /* ViewController1.xib */; };
 		116D06131E980FFF009CC24E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D06111E980FFF009CC24E /* ViewController2.swift */; };
 		116D06141E980FFF009CC24E /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116D06121E980FFF009CC24E /* ViewController2.xib */; };
+		11FC66551EB6A37C0051106E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FC66541EB6A37C0051106E /* User.swift */; };
+		11FC665A1EB6E75D0051106E /* ScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FC66581EB6E75D0051106E /* ScannerController.swift */; };
+		11FC665B1EB6E75D0051106E /* ScannerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11FC66591EB6E75D0051106E /* ScannerController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		116D060E1E980FF2009CC24E /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
 		116D06111E980FFF009CC24E /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		116D06121E980FFF009CC24E /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		11FC66541EB6A37C0051106E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		11FC66581EB6E75D0051106E /* ScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScannerController.swift; path = ../ScannerController.swift; sourceTree = "<group>"; };
+		11FC66591EB6E75D0051106E /* ScannerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScannerController.xib; path = ../ScannerController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 			children = (
 				116D05F41E9807D7009CC24E /* AppDelegate.swift */,
 				116D05F61E9807D7009CC24E /* StampViewController.swift */,
+				11FC66541EB6A37C0051106E /* User.swift */,
 				116D05F81E9807D7009CC24E /* Main.storyboard */,
 				116D06091E980FE4009CC24E /* ViewController0.swift */,
 				116D060A1E980FE4009CC24E /* ViewController0.xib */,
@@ -77,6 +84,8 @@
 				116D060E1E980FF2009CC24E /* ViewController1.xib */,
 				116D06111E980FFF009CC24E /* ViewController2.swift */,
 				116D06121E980FFF009CC24E /* ViewController2.xib */,
+				11FC66581EB6E75D0051106E /* ScannerController.swift */,
+				11FC66591EB6E75D0051106E /* ScannerController.xib */,
 				116D05FE1E9807D7009CC24E /* Assets.xcassets */,
 				116D06001E9807D7009CC24E /* LaunchScreen.storyboard */,
 				116D06031E9807D7009CC24E /* Info.plist */,
@@ -145,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11FC665B1EB6E75D0051106E /* ScannerController.xib in Resources */,
 				116D06021E9807D7009CC24E /* LaunchScreen.storyboard in Resources */,
 				116D06101E980FF2009CC24E /* ViewController1.xib in Resources */,
 				116D05FF1E9807D7009CC24E /* Assets.xcassets in Resources */,
@@ -161,12 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11FC665A1EB6E75D0051106E /* ScannerController.swift in Sources */,
 				116D05FD1E9807D7009CC24E /* coffeeStamp.xcdatamodeld in Sources */,
 				116D060F1E980FF2009CC24E /* ViewController1.swift in Sources */,
 				116D05F71E9807D7009CC24E /* StampViewController.swift in Sources */,
 				116D05F51E9807D7009CC24E /* AppDelegate.swift in Sources */,
 				116D060B1E980FE4009CC24E /* ViewController0.swift in Sources */,
 				116D06131E980FFF009CC24E /* ViewController2.swift in Sources */,
+				11FC66551EB6A37C0051106E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +340,7 @@
 				116D06081E9807D7009CC24E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
