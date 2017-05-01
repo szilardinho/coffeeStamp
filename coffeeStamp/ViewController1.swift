@@ -27,9 +27,12 @@ class ViewController1: UIViewController {
     @IBAction func stampPressed(_ sender: Any) {
         
         let scannerController = ScannerController()
+        scannerController.modalTransitionStyle = .flipHorizontal
         
         self.present(scannerController, animated: true, completion: nil)
 
     }
+    
+    
 
 }
