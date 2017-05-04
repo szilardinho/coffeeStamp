@@ -38,17 +38,5 @@
             <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <point key="canvasLocation" x="34.5" y="54.5"/>
         </view>
-        <viewController id="cZ0-qK-yII">
-            <layoutGuides>
-                <viewControllerLayoutGuide type="top" id="jfp-8D-u93"/>
-                <viewControllerLayoutGuide type="bottom" id="CLG-Om-2p3"/>
-            </layoutGuides>
-            <view key="view" contentMode="scaleToFill" id="Be7-m8-arp">
-                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            </view>
-            <point key="canvasLocation" x="530" y="55"/>
-        </viewController>
     </objects>
 </document>
